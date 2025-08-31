@@ -50,7 +50,6 @@ windows:
 ```
 pip install -r requirements.txt
 ```
-close python interpreter using ctrl + 'd'
 
 #### 4. Amend the config file as required
 ```
