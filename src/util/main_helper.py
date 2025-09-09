@@ -1,5 +1,4 @@
 import os
-import sys
 import random
 import numpy as np
 import torch
@@ -8,7 +7,7 @@ import torch.nn as nn
 from tqdm import tqdm, trange
 from transformers import  AutoModel, AdamW, get_linear_schedule_with_warmup
 from model.disbert import AutoModelForSequenceClassification_WSD_MIP_SPV
-from util.data_loader import  load_test_data, load_dev_data
+from util.data_loader import load_dev_data
 from util.metric import compute_metrics
 
 

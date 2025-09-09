@@ -1,8 +1,5 @@
-import numpy as np
 import torch
 import torch.nn as nn
-
-from transformers import AutoTokenizer, AutoModel
 
 
 class AutoModelForSequenceClassification_WSD_MIP_SPV(nn.Module):

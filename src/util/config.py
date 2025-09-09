@@ -1,7 +1,8 @@
 import os
-from collections import OrderedDict
 
+from collections import OrderedDict
 from configparser import ConfigParser
+
 
 class Config:
     """

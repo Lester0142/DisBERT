@@ -1,7 +1,9 @@
 import os
 import sys
 import csv
+
 from util.data_helper import InputExample
+
 
 class DataProcessor(object):
     """Base class for data converters for sequence classification data sets."""

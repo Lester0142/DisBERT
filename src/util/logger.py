@@ -3,6 +3,7 @@ import logging
 
 from time import strftime
 
+
 def create_log_dir(log_dir):
     """
     Generate a directory path for logging.
